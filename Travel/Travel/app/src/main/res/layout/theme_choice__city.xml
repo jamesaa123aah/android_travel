@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFBF9"
+    android:orientation="vertical"
+    >
+    <com.buu.app.travel.MyView.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></com.buu.app.travel.MyView.TitleLayout>
+
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="0px"
+        android:layout_height="0px"/>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_marginTop="10dp"
+       android:layout_height="wrap_content">
+
+
+       <EditText
+           android:id="@+id/theme_choice_edit"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="18sp"
+           android:padding="5dp"
+           android:gravity="center"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:background="@drawable/choice_city_edit"
+           android:hint="@string/theme_choice_city_hint"/>
+       <Button
+           android:id="@+id/theme_choice_find"
+           android:layout_width="26dp"
+           android:layout_height="23dp"
+           android:layout_alignBottom="@id/theme_choice_edit"
+           android:layout_alignTop="@id/theme_choice_edit"
+           android:layout_alignLeft="@id/theme_choice_edit"
+           android:layout_margin="5dp"
+           android:background="@android:drawable/ic_menu_search" />
+   </RelativeLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:background="#C3FFF0"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/theme_choice_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="#311F16"
+            android:text="@string/theme_choice_city_hot"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textSize="18dp" />
+
+
+       <LinearLayout
+           android:id="@+id/theme_choice_gridlayout"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/theme_choice_city"
+           android:layout_alignLeft="@id/theme_choice_city"
+           android:layout_marginRight="15dp"
+           android:orientation="horizontal">
+           <TextView
+               android:id="@+id/theme_choice_beijing"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:background="#AED4E7"
+               android:padding="10dp"
+               android:textColor="@color/white"
+               android:layout_marginRight="20dp"
+               android:gravity="center"
+               android:textSize="15dp"
+               android:text="@string/beijing"/>
+
+           <TextView
+               android:id="@+id/theme_choice_shanghai"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:background="#AED4E7"
+               android:padding="10dp"
+               android:layout_marginRight="18dp"
+               android:gravity="center"
+               android:textColor="@color/white"
+               android:text="@string/shanghai"
+               android:textSize="15dp" />
+
+           <TextView
+               android:id="@+id/theme_choice_xianggang"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:background="#AED4E7"
+               android:padding="10dp"
+               android:layout_marginRight="20dp"
+               android:gravity="center"
+               android:text="@string/xianggang"
+               android:textColor="@color/white"
+               android:textSize="15dp" />
+
+
+       </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/theme_choice_linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/theme_choice_gridlayout"
+            android:layout_alignLeft="@id/theme_choice_city"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            >
+
+            <TextView
+                android:id="@+id/theme_choice_aomen"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="#AED4E7"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:text="@string/aomen"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+           <TextView
+               android:id="@+id/theme_choice_tianjin"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:background="#AED4E7"
+               android:padding="10dp"
+               android:layout_marginTop="15dp"
+               android:layout_marginRight="20dp"
+               android:gravity="center"
+               android:textColor="@color/white"
+               android:text="@string/tianjin"
+               android:textSize="15dp" />
+
+           <TextView
+               android:id="@+id/theme_choice_yunnan"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:background="#AED4E7"
+               android:padding="10dp"
+               android:layout_marginTop="15dp"
+               android:layout_marginRight="20dp"
+               android:gravity="center"
+               android:textColor="@color/white"
+               android:text="@string/yunnan"
+               android:textSize="15dp" />
+       </LinearLayout>
+
+        <TextView
+            android:id="@+id/theme_choice_citylist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/theme_choice_city_list"
+            android:textSize="18dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_below="@+id/theme_choice_linear1"
+
+            />
+
+        <ScrollView
+            android:id="@+id/theme_choice_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/theme_choice_citylist"
+            android:layout_alignLeft="@id/theme_choice_citylist"
+            android:fillViewport="true"
+
+            >
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/theme_choice_recycle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </android.support.v7.widget.RecyclerView>
+        </ScrollView>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

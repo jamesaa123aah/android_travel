@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.buu.app.travel.MyView.TitleLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"></com.buu.app.travel.MyView.TitleLayout>
+            <ImageView
+                android:id="@+id/maininfo_img"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/main_mei1"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:id="@+id/maininfo_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:text=" 张家界可以游玩的景区众多，这里说下最好的四个景区：
+
+其一：武陵源景区也就是森林公园，这是来张家界必玩的景区，里面景点有森林公园、金鞭溪、袁家界、杨家界、天子山、十里画廊等，至少需要游玩二天的时间，门票为248元；
+
+其二：天门山景区，这里面有亚州最长的索道、世界公路奇观、玻璃栈道等，游玩时间为大半天的时间，门票258元包括往返的大索道；
+
+其三：大峡谷风景区，新开发的玻璃桥就是在这个景区了，这里需要游玩一天的时间，大峡谷及玻璃桥门票总共为256元；
+
+其四：凤凰古城，离张家界车程四个小时，也是游湖南必去的景点之一，门票148元（不去九景可不买票），游玩时间为一到二天的时间；
+
+大家可以根据游玩的时间来按排行程，或者根据游玩的景区来按排时间； "
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FCFBF9">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:background="@null"
+            android:id="@+id/loginCode_bt_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="@string/back"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/login_text_color"
+            android:textSize="24dp"
+            android:padding="20dp"
+            android:text="@string/code_login_in"
+            android:gravity="center"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:background="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:textColor="@color/msg_emote_divider"
+                android:text="@string/place"/>
+            <Spinner
+                android:id="@+id/loginCode_spinner_nate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="50dp"
+                android:padding="5dp"
+                android:background="@drawable/thememaking_border2"
+                android:entries="@array/nates"/>
+        </RelativeLayout>
+        <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp">
+
+
+            <EditText
+                android:id="@+id/loginCode_etext_number"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/thememaking_border"
+                android:hint="@string/loginCode_number_tip"
+                android:maxLines="1"
+                android:paddingLeft="70dp"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="50dp">
+                <TextView
+                    android:id="@+id/loginCode_text_tip_nate_code"
+                    android:layout_width="45dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:text="+86"
+                    android:layout_gravity="center_vertical"/>
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#000000"/>
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <Button
+                android:background="@drawable/thememaking_border2"
+                android:id="@+id/loginCode_bt_send_code"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="50dp"
+                android:text="@string/loginCode_send_code"/>
+
+            <EditText
+                android:id="@+id/loginCode_etext_code"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/thememaking_border"
+                android:hint="@string/login_code_tip"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="120dp"
+                android:textSize="24sp" />
+        </FrameLayout>
+
+        <Button
+            android:background="@drawable/thememaking_border2"
+            android:id="@+id/loginCode_bt_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="@string/login_login" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</FrameLayout>

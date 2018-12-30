@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FCFBF9">
+    <ImageView
+        android:id="@+id/registerAccount_bg_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/registerAccount_bt_back"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="返回"
+            android:background="@null"
+            android:textSize="18dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/registerAccount_etext_account"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#FFFFFF"
+            android:hint="@string/register_account_tip"
+            android:maxLines="1"
+            android:maxLength="32"
+            android:paddingLeft="10dp"
+            android:textSize="24sp" />
+        <EditText
+            android:id="@+id/registerAccount_etext_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#FFFFFF"
+            android:hint="@string/nickname"
+            android:maxLines="1"
+            android:maxLength="16"
+            android:paddingLeft="10dp"
+            android:textSize="24sp" />
+        <EditText
+            android:id="@+id/registerAccount_etext_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#FFFFFF"
+            android:inputType="textPassword"
+            android:hint="@string/login_password_tip"
+            android:maxLines="1"
+            android:maxLength="32"
+            android:paddingLeft="10dp"
+            android:textSize="24sp" />
+        <EditText
+            android:id="@+id/registerAccount_etext_repeat_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="10dp"
+            android:inputType="textPassword"
+            android:background="#FFFFFF"
+            android:hint="@string/password_repeat"
+            android:maxLength="32"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:textSize="24sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/registerAccount_etext_code"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="2"
+                android:background="#FFFFFF"
+                android:hint="@string/login_code_tip"
+                android:maxLines="1"
+                android:maxLength="8"
+                android:paddingLeft="10dp"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/registerAccount_code_img"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:background="#fff" />
+
+            <Button
+                android:id="@+id/registerAccount_refresh_code"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/thememaking_border2"
+                android:text="@string/login_refresh_code" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/registerAccount_bt_register"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/thememaking_border2"
+            android:text="@string/agree_and_register"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_checked="true">
+        <shape>
+            <corners android:radius="5dp"></corners>
+            <stroke android:color="@color/login_bt_text_color" android:width="2dp"></stroke>
+            <solid android:color="@color/style_login_zong" ></solid>
+        </shape>
+    </item>
+
+    <item  android:state_checked="false">
+        <shape>
+            <corners android:radius="5dp"></corners>
+            <stroke android:color="@color/thememaking_gray" android:width="2dp"></stroke>
+            <solid android:color="@color/style_login_white"></solid>
+        </shape>
+
+    </item>
+</selector>

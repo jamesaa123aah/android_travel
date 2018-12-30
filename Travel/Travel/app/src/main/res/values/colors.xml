@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="style_login_white">#FCFBF9</color>
+    <color name="style_login_zong">#E5E2AB</color>
+    <color name="style_login_blue">#4A62A0</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_green">#61f59c</color>
+    <color name="enter_bt_fg_white">#ffffff</color>
+    <color name="start_text_color">#ffffff</color>
+    <color name="login_text_color">#ffffff</color>
+
+    <color name="gray">#9fCFCFCF</color>
+    <color name="choice_gray">#4fCFCFCF</color>
+    <color name="bluesky">#BBFFFF</color>
+    <color name="white">#FFF</color>
+    <color name="transparent_background">#4d000000</color>
+    <color name="transparent_hbackground">#8f000000</color>
+
+    <color name="login_text_color_clickable">#0111ed</color>
+    <color name="login_bt_text_color">#000000</color>
+    <color name="loginCode_text_color_depth">#000000</color>
+    <color name="msg_emote_divider">#ffa1a1a1</color>
+    <color name="md__defaultBackground">#FF555555</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="holo_purple">#ffaa66cc</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_orange_dark">#ffff8800</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="thememaking_gray">#F5F8FD</color>
+</resources>

@@ -1,0 +1,700 @@
+<resources>
+    <!--<string name="app_name">Travel</string>-->
+    <!--<string name="enter">Enter</string>-->
+    <!--<string name="jump">Leak</string>-->
+    <!--<string name="place">Country</string>-->
+    <!--<string name="OK">OK</string>-->
+    <!--<string name="YES">YES</string>-->
+    <!--<string name="NO">NO</string>-->
+    <!--<string name="CANCEL">CANCEL</string>-->
+    <!--<string name="back_again_exit">back twice and quit</string>-->
+    <!--<string name="UNKNOW_ERR">UNKNOW_ERR</string>-->
+    <!--<string name="ERROR_tip">ERROR_tip</string>-->
+    <!--<string name="code_login"><u>code_login</u></string>-->
+    <!--<string name="code_login_in">code_login</string>-->
+    <!--<string name="X_sends_retry">try again</string>-->
+    <!--<string name="forget_password"><u>forget_password?</u></string>-->
+    <!--<string name="remember_me">REMEMBER_ME</string>-->
+    <!--<string name="auto_login">AUTO_LOGIN</string>-->
+    <!--<string name="auto_login_doing">auto_login_doing...</string>-->
+    <!--<string name="auto_login_over_time">longin time out</string>-->
+    <!--<string name="login_account_tip">phone/account/e-mail</string>-->
+    <!--<string name="nickname">nickname</string>-->
+    <!--<string name="register_account_tip">account(英文、数字、下划线、减号)</string>-->
+    <!--<string name="login_password_tip">password</string>-->
+    <!--<string name="password_repeat">password_repeat</string>-->
+    <!--<string name="login_login">login</string>-->
+    <!--<string name="login_register">register</string>-->
+    <!--<string name="login_refresh_code">refresh</string>-->
+    <!--<string name="login_code_tip">code</string>-->
+    <!--<string name="loginCode_number_tip">phone</string>-->
+    <!--<string name="loginCode_send_code">send code</string>-->
+    <!--<string name="not_use_phone_register"><u>register no phone number</u></string>-->
+    <!--<string name="please_input_phone_number_rightly">input correct phone number</string>-->
+    <!--<string name="agree_and_register">approve regulation</string>-->
+    <!--<string name="error_account_can_not_null">error_account_can_not_null</string>-->
+    <!--<string name="error_password_can_not_null">error_password_can_not_null</string>-->
+    <!--<string name="error_nickname_can_not_null">error_nickname_can_not_null</string>-->
+    <!--<string name="error_phone_number_can_not_null">error_phone_number_can_not_null</string>-->
+    <!--<string name="error_code_can_not_null">error_code_can_not_null</string>-->
+    <!--<string name="error_repeat_password_can_not_null">error_repeat_password_can_not_null</string>-->
+    <!--<string name="error_account_format_wrong">error_account_format_wrong</string>-->
+    <!--<string name="error_account_too_short">error_account_too_short</string>-->
+    <!--<string name="error_nickname_toot_short">error_nickname_toot_short</string>-->
+    <!--<string name="error_password_format_wrong">error_password_format_wrong</string>-->
+    <!--<string name="error_password_too_short">error_password_too_short</string>-->
+    <!--<string name="error_twice_password_different">error_twice_password_different</string>-->
+    <!--<string name="error_code_wrong">error_code_wrong</string>-->
+    <!--<string name="error_password_cant_not_include_special_char">error_password_cant_not_include_special_char</string>-->
+    <!--<string name="register_doing">注册中!register_doing...</string>-->
+    <!--<string name="register_success_jump">注册成功!register_success_jump...</string>-->
+    <!--<string name="login_doing">login_doing...</string>-->
+    <!--<string name="login_success_jump">login_success_jump...</string>-->
+    <!--<string name="register_fail">register success!register_fail.</string>-->
+    <!--<string name="hodometer">hodometer</string>-->
+    <!--<string name="translate">translate</string>-->
+    <!--<string name="photo_translate">photo translate</string>-->
+    <!--<string name="Sun">Sun</string>-->
+    <!--<string name="Mon">Mon</string>-->
+    <!--<string name="Tue">Tue</string>-->
+    <!--<string name="Wed">Wed</string>-->
+    <!--<string name="Thu">Thu</string>-->
+    <!--<string name="Fri">Fri</string>-->
+    <!--<string name="Sat">Sat</string>-->
+    <!--<string name="myPlans">myPlans-</string>-->
+    <!--<string name="search">搜索</string>-->
+    <!--<string name="join">加入</string>-->
+    <!--<string name="call">呼叫</string>-->
+    <!--<string name="keep_top">顶置</string>-->
+    <!--<string name="personal_space">空间</string>-->
+    <!--<string name="firends_and_chat">好友和聊天</string>-->
+    <!--<string name="press_to_talk">按住开始录音</string>-->
+    <!--<string name="service">客服</string>-->
+    <!--<string name="ask_help">获取服务</string>-->
+    <!--<string name="well_come_to_use_the_Customer_Service">欢迎使用客服服务</string>-->
+
+   <!---->
+    <!--<string name="main_search">searching for</string>-->
+    <!--<string name="search_eat_play">search</string>-->
+    <!--<string name="main_top">main</string>-->
+    <!--<string name="main_bottom">main</string>-->
+    <!--<string name="schedule">hodometer</string>-->
+    <!--<string name="mine">mine</string>-->
+    <!--<string name="canteen_text">cafeteria</string>-->
+    <!--<string name="rate_tormb_lanage">Choice language：</string>-->
+    <!--<string name="rate_tormb_money">input money：</string>-->
+    <!--<string name="rate_tormb_hint">less than 999999</string>-->
+    <!--<string name="rate_tormb_result">money：</string>-->
+    <!--<string name="rate_tormb">Other Country money→RMB</string>-->
+    <!--<string name="rate_tother">RMB→Other Country money</string>-->
+    <!--<string name="theme1_theme">style：</string>-->
+    <!--<string name="theme1_time">playing days：</string>-->
+    <!--<string name="theme1_relax">舒适程度：</string>-->
+    <!--<string name="theme1_date">开始日期：</string>-->
+    <!--<string name="theme1_btn">meking</string>-->
+    <!--<string name="thememaking_title">完整行程单</string>-->
+    <!--<string name="thememaking_date">日期：</string>-->
+    <!--<string name="checkedin">设置入住酒店</string>-->
+    <!--<string name="theme_black">夜间</string>-->
+    <!--<string name="theme_choice_city_hot">Hot city</string>-->
+    <!--<string name="theme_choice_city_list">City List</string>-->
+    <!--<string name="theme_choice_city_hint">search</string>-->
+    <!--<string name="oneday">Number one</string>-->
+    <!--<string name="twoday">Number two</string>-->
+    <!--<string name="threeday">Number three</string>-->
+    <!--<string name="back">back</string>-->
+    <!--<string name="self_making">self_making</string>-->
+    <!--<string name="unique_choice_hot">Hot tourism</string>-->
+    <!--<string name="unique_choice_all">all</string>-->
+    <!--<string name="find">search</string>-->
+    <!--<string name="sort_asc">sort_asc</string>-->
+    <!--<string name="sort_desc">sort_desc</string>-->
+    <!--<string name="screen">screen</string>-->
+    <!--<string name="all">all</string>-->
+    <!--<string name="historical">historical</string>-->
+    <!--<string name="a_place_of_interest">famous</string>-->
+    <!--<string name="shopping">shopping</string>-->
+    <!--<string name="scenery">scenery</string>-->
+    <!--<string name="religion">religion</string>-->
+    <!--<string name="museum">museum</string>-->
+    <!--<string name="animals">animals</string>-->
+    <!--<string name="European_style">European_style</string>-->
+    <!--<string name="culture">culture</string>-->
+    <!--<string name="foods">foods</string>-->
+    <!--<string name="choose_style">choose_style</string>-->
+    <!--<string name="choose_star_level">choose_star_level</string>-->
+    <!--<string name="price_range">price_range</string>-->
+    <!--<string name="look">look</string>-->
+    <!--<string name="spend">spend:</string>-->
+    <!--<string name="distance">distance:</string>-->
+    <!--<string name="time">time:</string>-->
+    <!--<string name="sure">sure</string>-->
+    <!--<string name="cancle">cancle</string>-->
+    <!--<string name="vr_map">vr_map</string>-->
+    <!--<string name="look_line">look\nline</string>-->
+    <!--<string name="add">add</string>-->
+    <!--<string name="better">better</string>-->
+    <!--<string name="delete1">delete1</string>-->
+    <!--<string name="line_one">line_one</string>-->
+    <!--<string name="line_two">line_two</string>-->
+    <!--<string name="line_three">line_three</string>-->
+    <!--<string name="hottourist">Hot spots :</string>-->
+    <!--<string name="tourist_comment">Tourist Comment</string>-->
+    <!--<string name="tourist_recommendation">Tourist Recommendation</string>-->
+
+    <!--<string name="making">making</string>-->
+    <!--<string name="contact">contact</string>-->
+    <!--<string name="better_line">better_line</string>-->
+    <!--<string name="weather">weather</string>-->
+    <!--<string name="phone_card">phone_card</string>-->
+    <string name="bicycle">自行车</string>
+    <string name="rate">汇率</string>
+    <string name="bank">附近银行</string>
+
+    <string name="canteen">餐厅</string>
+    <string name="inner">旅馆</string>
+    <string name="traffic">交通</string>
+    <string name="supermark">超市</string>
+    <string name="play">游乐场</string>
+    <string name="toliet">厕所</string>
+    <string name="delete">删除</string>
+    <string name="hospital">医院</string>
+
+
+    <string name="beijing">北京</string>
+    <string name="shanghai">上海</string>
+    <string name="xianggang">香港</string>
+    <string name="aomen">澳门</string>
+    <string name="yunnan">云南</string>
+    <string name="tianjin">天津</string>
+    <string name="insurance_account_tip" />
+
+
+    <string name="title_activity_clustering_demo">ClusteringDemoActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_marker_cluster_demo">点聚合功能</string>
+    <string name="title_markercluster_desc">\t\t缩小地图，以显示标注物的聚合点 \n
+    \t\t放大地图，显示Marker点 \n</string>
+    <string name="search">搜索</string>
+    <string name="join">加入</string>
+    <string name="call">呼叫</string>
+    <string name="keep_top">顶置</string>
+    <string name="personal_space">空间</string>
+    <string name="firends_and_chat">好友和聊天</string>
+    <string name="press_to_talk">按住开始录音</string>
+    <string name="service">客服</string>
+    <string name="ask_help">获取服务</string>
+    <string name="well_come_to_use_the_Customer_Service">欢迎使用客服服务</string>
+    <string name="enter">进入</string>
+    <string name="jump">跳过</string>
+    <string name="place">国家和地区</string>
+    <string name="OK">好</string>
+    <string name="YES">确认</string>
+    <string name="NO">否</string>
+    <string name="CANCEL">取消</string>
+    <string name="back_again_exit">再按一次退出</string>
+    <string name="UNKNOW_ERR">未知错误</string>
+    <string name="ERROR_tip">错误提示</string>
+    <string name="code_login"><u>验证码登录</u></string>
+    <string name="code_login_in">验证码登录</string>
+    <string name="X_sends_retry">秒后重试</string>
+    <string name="forget_password"><u>忘记密码?</u></string>
+    <string name="remember_me">记住我</string>
+    <string name="auto_login">自动登录</string>
+    <string name="auto_login_doing">自动登录中...</string>
+    <string name="auto_login_over_time">登录过期</string>
+    <string name="login_account_tip">手机号/账户/邮箱</string>
+    <string name="nickname">昵称</string>
+    <string name="register_account_tip">账户(英文、数字、下划线、减号)</string>
+    <string name="login_password_tip">密码</string>
+    <string name="password_repeat">确认密码</string>
+    <string name="login_login">登录</string>
+    <string name="login_register">注册</string>
+    <string name="login_refresh_code">刷新</string>
+    <string name="login_code_tip">校验码</string>
+    <string name="loginCode_number_tip">手机号</string>
+    <string name="loginCode_send_code">发送验证码</string>
+    <string name="not_use_phone_register"><u>不使用手机号注册</u></string>
+    <string name="please_input_phone_number_rightly">请正确输入手机号</string>
+    <string name="agree_and_register">同意协议并注册</string>
+    <string name="error_account_can_not_null">账户不能为空</string>
+    <string name="error_password_can_not_null">密码不能为空</string>
+    <string name="error_nickname_can_not_null">昵称不能为空</string>
+    <string name="error_phone_number_can_not_null">手机号不能为空</string>
+    <string name="error_code_can_not_null">验证码不能为空</string>
+    <string name="error_repeat_password_can_not_null">请输入确认密码</string>
+    <string name="error_account_format_wrong">账户格式不正确</string>
+    <string name="error_account_too_short">账户太短</string>
+    <string name="error_nickname_toot_short">昵称太短</string>
+    <string name="error_password_format_wrong">密码格式不正确</string>
+    <string name="error_password_too_short">密码太短</string>
+    <string name="error_twice_password_different">两次密码不一致</string>
+    <string name="error_code_wrong">验证码错误</string>
+    <string name="error_password_cant_not_include_special_char">密码不能包含特殊字符</string>
+    <string name="register_doing">注册中!请稍后...</string>
+    <string name="register_success_jump">注册成功!正在自动登录...</string>
+    <string name="login_doing">登录中!请稍后...</string>
+    <string name="login_success_jump">登录成功!正在跳转...</string>
+    <string name="register_fail">注册失败!请稍后再试.</string>
+    <string name="hodometer">行程表</string>
+    <string name="translate">翻译</string>
+    <string name="photo_translate">照片翻译</string>
+    <string name="screen">筛选</string>
+    <string name="sort_asc">升序</string>
+    <string name="sort_desc">降序</string>
+    <string name="all">全部</string>
+    <string name="app_name">易游中国</string>
+    <string name="main_search">找全球吃喝玩乐</string>
+    <string name="search_eat_play">找吃喝玩乐</string>
+    <string name="main_top">主页</string>
+    <string name="main_bottom">主页</string>
+    <string name="schedule">行程表</string>
+    <string name="mine">我的</string>
+    <string name="canteen_text">推荐：附近的店</string>
+    <string name="rate_tormb_lanage">请选择语种：</string>
+    <string name="rate_tormb_money">请输入金额：</string>
+    <string name="rate_tormb_hint">请输入少于99999的金额</string>
+    <string name="rate_tormb_result">金额为：</string>
+    <string name="rate_tormb">各国币→RMB</string>
+    <string name="rate_tother">RMB→各国币</string>
+    <string name="theme1_theme">风格：</string>
+    <string name="theme1_time">游玩天数：</string>
+    <string name="theme1_relax">舒适程度：</string>
+    <string name="theme1_date">开始日期：</string>
+    <string name="theme1_btn">一键定制</string>
+    <string name="thememaking_title">完整行程单</string>
+    <string name="thememaking_date">日期：</string>
+    <string name="checkedin">设置入住酒店</string>
+    <string name="theme_black">夜间</string>
+    <string name="historical">古迹</string>
+    <string name="a_place_of_interest">名胜</string>
+    <string name="shopping">购物</string>
+    <string name="scenery">风景</string>
+    <string name="religion">宗教</string>
+    <string name="museum">博物馆</string>
+    <string name="animals">动物</string>
+    <string name="European_style">欧式</string>
+    <string name="culture">文化</string>
+    <string name="foods">美食</string>
+    <string name="choose_style">选择风格</string>
+    <string name="choose_star_level">选择星级</string>
+    <string name="price_range">费用区间</string>
+    <string name="oneday">第一天</string>
+    <string name="twoday">第二天</string>
+    <string name="threeday">第三天</string>
+    <string name="back">返回</string>
+    <string name="Sun">日</string>
+    <string name="Mon">一</string>
+    <string name="Tue">二</string>
+    <string name="Wed">三</string>
+    <string name="Thu">四</string>
+    <string name="Fri">五</string>
+    <string name="Sat">六</string>
+    <string name="myPlans">我的计划-</string>
+    <string name="theme_light">高亮</string>
+    <string name="theme_choice_city_hot">热门城市</string>
+    <string name="theme_choice_city_list">城市列表</string>
+    <string name="theme_choice_city_hint">搜索</string>
+    <string name="self_making">自定义</string>
+    <string name="unique_choice_hot">热门城市</string>
+    <string name="unique_choice_all">城市列表</string>
+    <string name="find">查找</string>
+    <string name="Choice_Style">选择风格</string>
+    <string name="look">游客</string>
+    <string name="spend">花费:</string>
+    <string name="distance">距离:</string>
+    <string name="time">时间:</string>
+    <string name="sure">确定</string>
+    <string name="cancle">取消</string>
+    <string name="vr_map">VR地图</string>
+    <string name="look_line">查看\线路</string>
+    <string name="add">增加</string>
+    <string name="better">优化</string>
+    <string name="delete1">删除</string>
+    <string name="line_one">一</string>
+    <string name="line_two">二</string>
+    <string name="line_three">三</string>
+    <string name="hottourist">热门景点:</string>
+    <string name="tourist_comment">景点评论</string>
+    <string name="tourist_recommendation">游客推荐</string>
+    <string name="making">定制</string>
+    <string name="contact">contact</string>
+    <string name="better_line">优化</string>
+    <string name="weather">天气</string>
+    <string name="phone_card">手机卡</string>
+    <string name="tanslation_fail">翻译失败</string>
+
+    <string name="forum">论坛</string>
+    <string name="ticket">机票</string>
+    <string name="aid">援助</string>
+    <string name="pay">支付</string>
+
+
+    <string name="first_aid"> 回复1：身份证，护照丢失\n
+                                回复2：钱包丢失\n
+                                回复3：联系导游\n
+                                回复4：小孩走失\n
+                                回复5：紧急医院\n
+    </string>
+    <string-array name="first_aid">
+        <item>
+                最近的中国大使馆电话：64558795
+        </item>
+        <item>
+                拨打110，寻求帮助
+        </item>
+        <item>
+                拨打客服电话：65487421
+        </item>
+        <item>
+                第一招：广播\n
+                第二招：拨打110，寻求帮助
+        </item>
+
+        <item>
+                拨打客服热线：65487421，寻求帮助
+        </item>
+
+    </string-array>
+    <!--<string name="rate">rate</string>-->
+    <!--<string name="bank">bank</string>-->
+
+
+    <!--<string name="inner">inner</string>-->
+    <!--<string name="traffic">traffic</string>-->
+    <!--<string name="supermark">supermark</string>-->
+    <!--<string name="play">play</string>-->
+    <!--<string name="toliet">toliet</string>-->
+    <!--<string name="delete">delete</string>-->
+    <!--<string name="hospital">hospital</string>-->
+
+
+    <!--<string name="beijing">Beijing</string>-->
+    <!--<string name="shanghai">Shanghai</string>-->
+    <!--<string name="xianggang">Xianggang</string>-->
+    <!--<string name="aomen">Aomen</string>-->
+    <!--<string name="yunnan">Yunnan</string>-->
+    <!--<string name="tianjin">Tianjin</string>-->
+
+    <!--<string-array name="sort_list">-->
+        <!--<item>level</item>-->
+        <!--<item>hot</item>-->
+        <!--<item>good comment</item>-->
+        <!--<item>spend</item>-->
+        <!--<item>number of look</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="nates">-->
+        <!--<item>China</item>-->
+        <!--<item>Japan</item>-->
+        <!--<item>UK</item>-->
+        <!--<item>Korean</item>-->
+        <!--<item>French</item>-->
+        <!--<item>Russian</item>-->
+        <!--<item>Portuguese</item>-->
+        <!--<item>Spanish</item>-->
+    <!--</string-array>-->
+    <!--<string-array name="translate_nate">-->
+        <!--<item>auto</item>-->
+        <!--<item>China</item>-->
+        <!--<item>Japan</item>-->
+        <!--<item>UK</item>-->
+        <!--<item>Korean</item>-->
+        <!--<item>French</item>-->
+        <!--<item>Russian</item>-->
+        <!--<item>Portuguese</item>-->
+        <!--<item>Spanish</item>-->
+    <!--</string-array>-->
+
+
+    <!--<string-array name="theme">-->
+        <!--<item>Old</item>-->
+        <!--<item>Famous</item>-->
+        <!--<item>shopping</item>-->
+        <!--<item>Scenery</item>-->
+        <!--<item>Religion</item>-->
+        <!--<item>Meusume</item>-->
+        <!--<item>animal</item>-->
+        <!--<item>European</item>-->
+        <!--<item>Culture</item>-->
+        <!--<item>Eatting</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="palace">-->
+        <!--<item>TianTan</item>-->
+        <!--<item>ZiRanBoWuGuan</item>-->
+        <!--<item>YiQinWangFu</item>-->
+        <!--<item>GuGong</item>-->
+        <!--<item>MingChengQiag</item>-->
+        <!--<item>YouHeGong</item>-->
+        <!--<item>GongWangFu</item>-->
+        <!--<item>XiDan</item>-->
+        <!--<item>SanLiTun</item>-->
+        <!--<item>ShuiLiFang</item>-->
+        <!--<item>XiangShang</item>-->
+        <!--<item>BeiHai</item>-->
+        <!--<item>GuGuanXiangTai</item>-->
+        <!--<item>HuanLeGu</item>-->
+
+    <!--</string-array>-->
+
+
+    <!--<string-array name="city">-->
+        <!--<item>Beijing</item>-->
+        <!--<item>Shanghai</item>-->
+        <!--<item>Tianjin</item>-->
+        <!--<item>Chongqing</item>-->
+        <!--<item>HeiLongjian</item>-->
+        <!--<item>Jilin</item>-->
+        <!--<item>Liaoning</item>-->
+        <!--<item>Neimenggu</item>-->
+        <!--<item>Heibei</item>-->
+        <!--<item>Xinjiang</item>-->
+        <!--<item>Gansu</item>-->
+        <!--<item>Qinghai</item>-->
+        <!--<item>Shanxi</item>-->
+        <!--<item>Ningxia </item>-->
+        <!--<item>Henan</item>-->
+        <!--<item>Shangdong</item>-->
+        <!--<item>Shanxi</item>-->
+        <!--<item>Anhui</item>-->
+        <!--<item>HuBei</item>-->
+        <!--<item>Jiangsu</item>-->
+        <!--<item>SIchaun</item>-->
+        <!--<item>Guizhong</item>-->
+        <!--<item>Yunnan</item>-->
+        <!--<item>Guangxi</item>-->
+        <!--<item>XiZang </item>-->
+        <!--<item>Zhejiang</item>-->
+        <!--<item>Jiangxi</item>-->
+        <!--<item>Guangdong</item>-->
+        <!--<item>Gujian</item>-->
+        <!--<item>Taiwan</item>-->
+        <!--<item>Hainan</item>-->
+        <!--<item>Xianggang </item>-->
+        <!--<item>Aomen</item>-->
+    <!--</string-array>-->
+    <string name="weight">请参考权重选择</string>
+    <string name="jincou">紧凑度</string>
+    <string name="jiage">价格区间</string>
+
+    <string name="scanner">请点击并扫码完成支付</string>
+    <string name="insurance">保单信息</string>
+    <string name="forum_new">最新</string>
+    <string name="forum_all">全部</string>
+
+
+    <string-array name="nates">
+        <item>中国</item>
+        <item>日本</item>
+        <item>英国</item>
+        <item>韩国</item>
+        <item>法国</item>
+          <item>俄国</item>
+        <item>葡萄牙</item>
+        <item>西班牙</item>
+    </string-array>
+    <string-array name="translate_nate">
+        <item>自动</item>
+        <item>中文</item>
+        <item>日文</item>
+        <item>英文</item>
+        <item>韩文</item>
+        <item>法文</item>
+        <item>俄文</item>
+        <item>葡萄牙文</item>
+        <item>西班牙文</item>
+    </string-array>
+
+    <string-array name="theme">
+        <item>古典</item>
+        <item>名胜</item>
+        <item>购物</item>
+        <item>风景</item>
+        <item>宗教</item>
+        <item>博物馆</item>
+        <item>动物</item>
+        <item>欧式</item>
+        <item>文化</item>
+        <item>美食</item>
+    </string-array>
+
+
+    <string-array name="sort_list">
+        <item>综合排序</item>
+        <item>热度</item>
+        <item>好评</item>
+        <item>消费</item>
+        <item>浏览量</item>
+    </string-array>
+
+
+    <string-array name="city">
+        <item>北京</item>
+        <item>上海</item>
+        <item>天津</item>
+        <item>重庆</item>
+        <item>黑龙江</item>
+        <item>吉林</item>
+        <item>辽宁</item>
+        <item>内蒙古</item>
+        <item>河北</item>
+        <item>新疆</item>
+        <item>甘肃</item>
+        <item>青海</item>
+        <item>陕西</item>
+        <item>宁夏 </item>
+        <item>河南</item>
+        <item>山东</item>
+        <item>陕西</item>
+        <item>安徽</item>
+        <item>湖北</item>
+        <item>江苏</item>
+        <item>四川</item>
+        <item>贵州</item>
+        <item>云南</item>
+        <item>广西</item>
+        <item>西藏 </item>
+        <item>浙江</item>
+        <item>江西</item>
+        <item>广东</item>
+        <item>Gujian</item>
+        <item>台湾</item>
+        <item>海南</item>
+        <item>香港 </item>
+        <item>澳门</item>
+    </string-array>
+
+    <string name="tiantan">tiantan</string>
+    <string name="zrbwg">zrbwg</string>
+    <string name="yqwf">yqwf</string>
+    <string name="gugong">gugong</string>
+    <string name="mcqyz">mcqyz</string>
+    <string name="yhg">yhg</string>
+    <string name="gwf">gwf</string>
+    <string name="xidan">xidan</string>
+    <string name="sanlitun">sanlitun</string>
+    <string name="shuilifang">shuilifang </string>
+
+
+    <string name="tiantan_text">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;天坛，世界文化遗产，全国重点文物保护单位，国家AAAAA级旅游景区，全国文明风景旅游区示范点。</string>
+    <string name="gugong_text">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;北京自然博物馆位于首都南城中轴线上的天桥地区,背靠世界文化遗产天坛公园,面对现代化的天桥演艺区, 具有特殊的文化环境。</string>
+    <string name="ywf_text">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;仪王府(Prince Yi Mansion)位于北京西城区西长安街路北、府右街以西现今中共中央宣传部院内残存的游廊和楼阁一般认为是当年仪亲王府花园旧物。.</string>
+    <string name="yonghegong_text">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;雍和宫（The Lama Temple）位于北京市区东北角，清康熙三十三年（1694年），康熙帝在此建造府邸、赐予四子雍亲王，称雍亲王府。雍正三年（1725年），改王府为行宫，称雍和宫。</string>
+    <!--<string name="insurance_account_tip" >保单人姓名</string>-->
+    <string name="insurance_nickname">身份证</string>
+    <string name="nickname1">姓名</string>
+
+
+    <string-array name="comment">
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;我觉得北京的古城不错，建议引进这个景点很有意思。</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;你们去过王府井吗？。</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;天津的包子很好吃。</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;哈哈哈哈，易游中国，good。</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;北京的香山很美？</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;长沙的臭豆腐不错呦。</item>
+
+    </string-array>
+
+    <!--<string-array name="comment">-->
+        <!--<item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;I think the ancient city of Beijing is good. It's interesting to recommend the scenic spot.</item>-->
+        <!--<item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Have you ever been to Wangfujing?</item>-->
+        <!--<item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The baozi in Tianjin is delicious.</item>-->
+        <!--<item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Ha ha, Go China APP is execllent.</item>-->
+        <!--<item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Have you ever been to Wangfujing?。</item>-->
+        <!--<item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;你们去过王府井吗？。</item>-->
+
+    <!--</string-array>-->
+    <string-array name="palace">
+        <item>天坛</item>
+        <item>自然博物馆</item>
+        <item>仪亲王府</item>
+        <item>故宫</item>
+        <item>明城墙遗址</item>
+        <item>雍和宫</item>
+        <item>恭王府</item>
+        <item>西单</item>
+        <item>三里屯</item>
+        <item>水立方</item>
+        <item>香山</item>
+        <item>北海</item>
+        <item>古观象台</item>
+        <item>欢乐谷</item>
+    </string-array>
+
+    <string-array name="content">
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;天坛，世界文化遗产，全国重点文物保护单位，国家AAAAA级旅游景区，全国文明风景旅游区示范点。</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;北京自然博物馆位于首都南城中轴线上的天桥地区,背靠世界文化遗产天坛公园,面对现代化的天桥演艺区, 具有特殊的文化环境。</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;仪王府(Prince Yi Mansion)位于北京西城区西长安街路北、府右街以西现今中共中央宣传部院内残存的游廊和楼阁一般认为是当年仪亲王府花园旧物。</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;北京故宫博物院建立于1925年，是在明朝、清朝两代皇宫及其收藏的基础上建立起来的中国综合性博物馆，也是中国最大的古代文化艺术博物馆。</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;历史上明城墙全长25公里，始建于明永乐17年（公元1419年），距今已有580多年的历史。</item>
+        <item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;雍和宫（The Lama Temple）位于北京市区东北角，清康熙三十三年（1694年），康熙帝在此建造府邸、赐予四子雍亲王，称雍亲王府。雍正三年（1725年），改王府为行宫，称雍和宫。</item>
+    </string-array>
+
+    <!--<string-array name="content">-->
+        <!--<item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Tiantan, the world cultural heritage, the national key cultural relics protection units, the national AAAAA tourist attractions, the national civilized scenic tourism demonstration sites.</item>-->
+        <!--<item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The Beijing Museum of natural history is located in the flyover area on the central axis of the capital Nancheng. It is backed by the world cultural heritage Tiantan park. Facing the modern flyover performing arts area, it has a special cultural environment.</item>-->
+        <!--<item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Prince Yi Mansion Located in the west of Beijing, Chang'an Avenue, Xicheng District</item>-->
+        <!--<item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The the Imperial Palace Museum in Beijing was established in 1925. It is a comprehensive museum built on the basis of the two dynasties palace and its collection in the Ming Dynasty and Qing dynasty,</item>-->
+        <!--<item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;In Ming Dynasty, the city wall was 25 kilometers long. It was built in Ming Yongle 17 years (1419 AD), and it has a history of more than 580 years.</item>-->
+        <!--<item>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;-->
+
+<!--Lama Temple (The Lama Temple) is located in the northeast corner of Beijing City, the Qing Dynasty Kangxi thirty-three years (1694)</item>-->
+    <!--</string-array>-->
+
+    <string-array name="relax">
+        <item>"舒适"</item>
+        <item>"紧凑"</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>一天</item>
+        <item>两天</item>
+        <item>三天</item>
+    </string-array>
+
+    <string-array name="main_content">
+    <item>我们\n
+        总是等待\n
+        期待心中关于旅行的蓝图\n
+        却总是不能成行\n
+        因为友人，因为琐事，因为各种的各种\n
+        后来\n
+        我们放弃等待，放弃期待，放弃空待\n
+        每一个周末游玩\n
+        每一个清晨游荡\n
+        每一个地方游憩\n
+        总是能体味另一个平凡而精彩的生活\n
+        闲逛，如此有趣。\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;作为一个90后的准中年宝宝，工作一直很忙，但是每年都会抽空和闺蜜出去游玩一次，去年去的成都重庆吃吃吃，今年时间不够，趁着春意未尽，于是决定去张家界凤凰玩一趟
+
+        本来我还准备认真看看攻略，借鉴一下别人的经验，做下行程，避免走弯路、被宰，但是在网上随意看了看又觉得各种说法的太多，没有耐心一个一个的去研究，后来问到闺蜜她特神秘的说，不用操心，想那么多，一切交给羊掌柜
+
+        整个旅游过程和闺蜜玩的很开心，不仅仅是见到了自然美景，感受到了山水之间的豁然开朗，一路上羊掌柜贴心的服务让我们整个旅程都十分舒心，让我一下子就喜欢这种最近正流行的掌柜式旅行。真的是太爽了，我们简直就像女王出巡，只需要顾着美丽优雅，还有掌柜一路护送。
+
+        为什么选择羊掌柜很爽？\n
+        1时间路线由自己控制，睡到自然醒，关键价格还超值\n
+        2专业私人定制，条条都是精品旅程\n
+        3正规的掌柜服务，零购物，适合2-20人自由行\n
+        4单独一台旅行商务车，独属的私密空间，想怎么样就怎么样\n</item>
+
+        <item>
+        如果说要让我说世界上有什么食物让我留恋，其一必然是中餐，而其二，就是这法兰西国土上琳琅满目的各色法餐。居于法国多年，期间一直寻觅各种美食，偶然有机会同小伙伴们在南法玩耍一阵，从此打开了本吃货的一个新世界。\n
+        在此献上游记+攻略，给万千志同道合之吃货小伙伴们一点参考~\n
+        第一站：里昂\n
+
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;和小伙伴们一行七人加上司机兼吃货向导，自巴黎一路唱着歌吃着火锅（并没有）向南而去，五个小时之后，我们就来到了这座法国美食地图上必不可少的一站。里昂是法国人均拥有最多餐馆的城市之一，也是是法国第二大拥有米其林餐馆的城市，自然是美食家的天堂。苦于囊中羞涩和时间上的考虑我们此行并没有选择里昂的米其林餐厅，而是选择了不少具有里昂特色的餐馆，在司机小哥这个资深吃货的带领下，穿梭于老里昂的小巷之间，一家又一家充满当地特色的餐厅就这样俘获了一众吃货的心。\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;除此之外里昂本土菜还有salade lyonaise（里昂沙拉），这是随处可见的里昂土菜馆都有的一道菜，新鲜的蔬菜配以各种各样的肉丁，酱汁，当你走累了，亦或吃腻了各种肉食，不妨坐下来，点一杯红酒，配上一份清爽的沙拉，看着老城里来来往往的各色游客，不失为一种放松的好方法。
+
+        里昂的美食实在太多，在纷繁复杂的城市发展中却仍有那么一批极富特色的小餐馆林立于古老的老里昂城里，与山顶那座教堂一起见证着时间流逝之中仍保留着的那份只属于当地美食者们的质朴，值得所有人慢慢去探索，去发现。
+
+        第二站：尼斯\n
+
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;去南法就不得不提尼斯，阳光，沙滩，一路走，就一路感受着大城市的喧嚣渐渐的远离你，当你感受到海风吹拂而来时，这座小城的安详以及南法独有的城市气息就会将你带入进一个安静而又不失跃动的心境里（然而这些都不是重点），对一群吃货来说，吸引着我们的永远是各地的美食。
+    </item>
+
+        <item>
+    清晨，我迎着初升的太阳，背着胀鼓鼓的行囊，怀着型奋的心情，早早地来到学校向老师报道。 　\n　没等一会儿，导游老师就来了。他们给我们讲了一些保护环境，的常识后，我们就排着整齐的队伍喊着口号出发了。一路上，有的同学吃零食，有的唱歌，还有的在猜谜语。快活的像刚飞出鸟笼的小鸟似的。而我却急得像热锅上的蚂蚁，东瞧瞧，西望望，心早已飞到了目的地，还不时地问：“导游老师，怎么还没到?” 　　终于到达了目的地——荔园山庄了!我一下车就手舞足蹈、欢蹦乱跳起来。接着，导游老师带我们来到碰碰车场前，这可是我的拿手强项，我得抓住机会好好表演一番不可!果然，在碰碰车大战中，我大显神通。最后，曾老师还帮我照了一张相呢! 　　吃完午饭，再游玩了几个项目后，接下来的便是我期盼已久的“小猪跳水”了!我们来到水池边，等了约二十分钟，表演才开始。管理人员先放了十几只小猪，它们要绕着水池跑一圈，正当最后一只小猪跑到我们面前时，不知是哪个调皮鬼丢了一个空的薯片罐头落在小猪面前，小猪被吓到了，站在原地一动不动。管理人员迅速赶到，并朝小猪屁股狠狠地朝小猪屁股踢了一脚，小猪哀哀地叫起来，拼命往前跑。 　　管理人员继而破口大骂：“他妈的!是谁丢的?!”吓得我大气不敢出。然后，几头野猪跑到跳台上，胆怯地望着下面的水池，管理人员二话不说就把它们一个个“打”了下去。这个项目不但没给我留下好感，反而非常令我失望和伤心。结束后，我想：管理员太不善待动物了!动物也是一条生命呀!那些小猪、野猪落在那个管理人员的手上，肯定吃了不少苦头。小猪、野猪本来就不来就不会游泳的嘛，为什么要硬逼人家跳水呢? 　　回到家，我觉得我不但学会了保护环境，还领悟了一个道理：人类应该善待动物! 　　【篇二：狼牙山之行】 　　我们一家人终于要去我盼望已久的狼牙山游玩。清晨，我们乘车来到了狼牙山。 　　首先，我们进入了狼牙山入口处的纪念馆。我在里面看见了五位壮士的蜡像，有马宝玉、胡德林、胡福才、葛振林和宋学义，他们满身是血，穿着破衣，使用的是微型步枪，可他们在敌我力量悬殊的情况下，表现出了高度英勇、顽强勇敢、舍生忘死，给敌寇以极大的杀伤力，是我们的英雄。 　　出了纪念馆，我们准备乘缆车到山顶游玩。 　　我和爸爸乘坐一辆缆车，从缆车上向下望，满目郁葱、古树参天、山峦叠翠。不时听见树林里传来的鸟啼，此起彼伏，象美妙的交响曲。山间的小路弯弯曲曲，犹如一条丝带穿行在林间，一直延伸到山顶，很多游客向上攀登。 　　下了缆车，我们全家人爬上了陡峭的山顶，山顶云雾缭绕，挺拔的松树在轻衫般的云雾里时隐时现。从山顶向下看，隐约可见红了的秋叶，红、青、白三种颜色，仿佛构成了一幅绚丽的图画。我们有一种腾云驾雾、飘飘欲仙的感觉。 　　更值得一看的是，为狼牙山五壮士修建的纪念塔，它昂然的矗立悬崖，五位壮士却勇敢地跳了下去。我心里在想，如果是我，会那样做吗? 　　在下山路上，我一直都在想着狼牙山五壮士的事，无瑕顾及大自然美丽的景色，我们生为21世纪的主人，生活环境如此优越，科技如此发达，我们应该刻苦努力地学习好每门功课，并从中感悟知识的内涵，面对挑战，面对竞争，面对困难，面对失败，我们永不退缩，时刻牢记周恩来爷爷的话：“为中华之崛起而读书”，这将是我们这一代人不可推卸的责任和神圣的使命。 　　【篇三：赏龙潭】 　　我观赏过水平如镜的西湖，也游览过山清水秀的仙都，但我更喜爱风景奇异的小龙潭。它就像一块巨大的磁铁，深深地吸引着我。 　　阳光明媚的一天，凉爽的春风把我送到了神往已久的小龙潭。我高兴得像快活的小鸟，飞一般地跳下车子，沿着小石子铺成的山路拾级而上。 　　老远，我就望见对面那陡峭的山涧，一条飞流而下的瀑布，从上游笔直地倾泻下来。 　　我走近山涧，抬头一看。啊，龙头真是雄壮威武!只见它那张开的血盆大口中喷出了晶莹剔透的大水柱，一双神采奕奕的大眼睛放射出洁白的光芒，两根又长又细的龙角直棱棱地向上挺立着。好一派气势磅礴的壮观景象!湍急的水流哗哗作响，从山峡里直冲下来。水花溅在岩石上，像一股股白烟，又似一团团云雾，飘飘洒洒，纷纷扬扬。水珠滑在我的面颊上，凉丝丝的，沁人心脾。此时此刻，我情不自禁吟起了李白的千古名句：“飞流直下三千尺，疑是银河落九天。”我俯下身子，只见小龙潭的水清澈见底，一眼就能看清河底的细沙，还不时可以看见一条条小鱼在自由自在游着。这一切，在阳光的照耀下，好似披上了一缕金色的纱衣。这般美景，真是让人如痴如醉。 　　我们沿着弯弯曲曲的小路，来到了山腰的仙水龙洞。早就听说喝了仙水可以成仙，我便一马当先，跑到水池前。只见一滴滴“仙水”从石缝中钻了出来，溅起一朵朵小花。我心里直痒痒，马上拿起杯子接了一杯水，“咕咚”喝了一口。啊!它滋润了我的喉咙，也滋润了我的心田，一直甜到我的心窝里。顿时，我精神抖擞，又向山上奔去。 　　许久，我才登上了顶峰，来到山顶的凉亭上举目眺望。看，那雪白的是梨花，那粉红的是桃花，那浅绿的是草地，一片片纵横交错，形成一道道绚丽的七色彩虹。艳丽的映山红这边一簇，那儿一丛，把大山点缀得格外美丽。微风吹来，花儿跳起了优美的舞蹈，叶子沙沙作响，弹奏着动听的乐曲。一阵凉爽的山风袭来，梳理着我蓬乱的头发。欣赏着这样的美景，我仿佛进入了奇美的童话世界。
+
+        </item>
+    </string-array>
+</resources>

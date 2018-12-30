@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item android:id="@+id/addmark_1"
+            android:title="Palace"
+            android:icon="@drawable/star_hollow"
+            >
+        </item>
+
+        <item android:id="@+id/addmark_2"
+            android:title="HouHai">
+        </item>
+
+        <item android:id="@+id/addmark_3"
+            android:title="Fujin">
+        </item>
+
+
+</menu>

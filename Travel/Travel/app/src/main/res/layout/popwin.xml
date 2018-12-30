@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_gray"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:background="#FCFBF9"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/sizer_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#EBFFFA"
+            android:text="@string/back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            android:text="@string/choose_style"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#C3FFF0" />
+
+        <GridLayout
+            android:id="@+id/sizer_tags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/border_gray"
+            android:columnCount="3">
+
+            <com.buu.app.travel.MyView.MyTextView
+                android:layout_margin="10dp"
+                android:width="80dp"
+                android:height="32dp"
+                android:gravity="center"
+                android:text="@string/all"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <com.buu.app.travel.MyView.MyTextView
+                android:layout_margin="10dp"
+                android:width="80dp"
+                android:height="32dp"
+                android:gravity="center"
+                android:text="@string/historical"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <com.buu.app.travel.MyView.MyTextView
+                android:layout_margin="10dp"
+                android:width="80dp"
+                android:height="32dp"
+                android:gravity="center"
+                android:text="@string/a_place_of_interest"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <com.buu.app.travel.MyView.MyTextView
+                android:layout_margin="10dp"
+                android:width="80dp"
+                android:height="32dp"
+                android:gravity="center"
+                android:text="@string/shopping"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <com.buu.app.travel.MyView.MyTextView
+                android:layout_margin="10dp"
+                android:width="80dp"
+                android:height="32dp"
+                android:gravity="center"
+                android:text="@string/scenery"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <com.buu.app.travel.MyView.MyTextView
+                android:layout_margin="10dp"
+                android:width="80dp"
+                android:height="32dp"
+                android:gravity="center"
+                android:text="@string/religion"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <com.buu.app.travel.MyView.MyTextView
+                android:layout_margin="10dp"
+                android:width="80dp"
+                android:height="32dp"
+                android:gravity="center"
+                android:text="@string/museum"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <com.buu.app.travel.MyView.MyTextView
+                android:layout_margin="10dp"
+                android:width="80dp"
+                android:height="32dp"
+                android:gravity="center"
+                android:text="@string/animals"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <com.buu.app.travel.MyView.MyTextView
+                android:layout_margin="10dp"
+                android:width="80dp"
+                android:height="32dp"
+                android:gravity="center"
+                android:text="@string/European_style"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <com.buu.app.travel.MyView.MyTextView
+                android:layout_margin="10dp"
+                android:width="80dp"
+                android:height="32dp"
+                android:gravity="center"
+                android:text="@string/culture"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <com.buu.app.travel.MyView.MyTextView
+                android:layout_margin="10dp"
+                android:width="80dp"
+                android:height="32dp"
+                android:gravity="center"
+                android:text="@string/foods"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </GridLayout>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            android:text="@string/choose_star_level"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#535353" />
+
+        <LinearLayout
+            android:id="@+id/sizer_star"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:src="@drawable/star_solid" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:src="@drawable/star_hollow" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:src="@drawable/star_hollow" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:src="@drawable/star_hollow" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:src="@drawable/star_hollow" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:text="@string/price_range"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#535353" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/sizer_range_left"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/etext_thin"
+                android:inputType="number" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:src="@drawable/translation" />
+
+            <EditText
+                android:id="@+id/sizer_range_right"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/etext_thin"
+                android:inputType="number" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

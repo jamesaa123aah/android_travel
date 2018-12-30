@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/main_text_top"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/main_top"
+
+                />
+
+            <ImageView
+                android:id="@+id/weather"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="10dp"
+                android:src="@mipmap/weather"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_height="0.5dip"
+        android:background="@color/holo_orange_dark"
+        android:layout_width="match_parent"/>
+
+    <FrameLayout
+        android:id="@+id/frag_one"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+    <View
+        android:layout_height="0.5dip"
+        android:background="@color/holo_orange_dark"
+        android:layout_width="match_parent"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="0dp"
+        >
+
+        <TextView
+            android:id="@+id/main_text_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RadioGroup
+            android:id="@+id/radio_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:checked="true"
+                android:drawableTop="@drawable/picture_main"
+                android:text="@string/main_bottom"
+                android:textColor="@drawable/text_style"
+                android:textSize="12sp"
+
+                />
+
+            <RadioButton
+                android:id="@+id/schedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.07"
+                android:button="@null"
+                android:drawableTop="@drawable/picture_schedule"
+                android:gravity="center"
+                android:text="@string/schedule"
+                android:textColor="@drawable/text_style"
+                android:textSize="12sp"
+
+                />
+
+            <RadioButton
+                android:id="@+id/translate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/picture_translate"
+                android:gravity="center"
+                android:text="@string/translate"
+                android:textColor="@drawable/text_style"
+                android:textSize="12sp"
+
+                />
+
+
+            <RadioButton
+                android:id="@+id/mine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:drawableTop="@drawable/picture_mine"
+                android:text="@string/mine"
+                android:textColor="@drawable/text_style"
+                android:textSize="12sp"
+
+                />
+        </RadioGroup>
+
+    </FrameLayout>
+
+</LinearLayout>

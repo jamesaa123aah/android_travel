@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+    <ScrollView
+        android:id="@+id/making_line_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="@string/look_line"
+                    android:textSize="20dp" />
+
+                <RadioGroup
+                    android:id="@+id/making_line_radiogroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/making_line_lineone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:background="@drawable/making_line_button1"
+                        android:button="@null"
+                        android:checked="true"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="1"
+                        android:textColor="@drawable/making_line_text"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/making_line_linetwo"
+                        android:layout_width="50dp"
+                        android:layout_height="0dp"
+                        android:layout_below="@+id/making_line_lineone"
+                        android:layout_weight="1"
+                        android:background="@drawable/making_line_button2"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="2"
+                        android:textColor="@drawable/making_line_text"
+                        android:textSize="20dp" />
+
+
+                    <RadioButton
+                        android:id="@+id/making_line_linethree"
+                        android:layout_width="50dp"
+                        android:layout_height="0dp"
+                        android:layout_below="@+id/making_line_lineone"
+                        android:layout_weight="1"
+                        android:background="@drawable/making_line_button3"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="3"
+                        android:textColor="@drawable/making_line_text"
+                        android:textSize="20dp"
+                        />
+                </RadioGroup>
+
+
+                <com.baidu.mapapi.map.MapView
+                    android:id="@+id/making_line_map"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_toRightOf="@+id/making_line_radiogroup"
+                    android:background="@color/thememaking_gray"></com.baidu.mapapi.map.MapView>
+
+                <View
+                    android:id="@+id/making_line_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_below="@+id/making_line_map"
+                    android:background="@color/holo_red_dark"></View>
+
+
+                <RelativeLayout
+                    android:id="@+id/mark_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:background="#cc4e5a6b"
+                    android:layout_below="@+id/making_line_linear_function"
+                    android:visibility="gone"
+                    >
+
+                    <ImageView
+                        android:id="@+id/mark_img"
+                        android:src="@drawable/dongjing1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="fitXY"
+                        android:background="@drawable/img_border"
+                        />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:clickable="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_margin="10dp"
+
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginRight="70dp"
+                            >
+                            <TextView
+                                android:id="@+id/mark_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="jjajjajjaj"
+                                android:textColor="#fff5eb"
+                                android:textSize="15dp"/>
+
+                            <TextView
+                                android:id="@+id/mark_content"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="jjajjajjaj"
+                                android:textColor="#fff5eb"
+                                android:textSize="15dp"
+                                />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true"
+                            android:orientation="horizontal"
+                            >
+
+                            <TextView
+                                android:id="@+id/mark_zan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="jjajjajjaj"
+                                android:textColor="#fff5eb"
+                                android:textSize="15dp"
+                                android:layout_gravity="center"
+                                />
+                            <ImageView
+                                android:id="@+id/mark_imgzan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/main_mine_true"
+                                android:layout_gravity="center"/>
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+
+
+                </RelativeLayout>
+
+                <GridLayout
+                    android:id="@+id/making_line_linear_function"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/making_line_map"
+                    android:rowCount="2"
+                    android:columnCount="4"
+                    android:visibility="gone"
+
+                    >
+
+                    <Button
+                        android:id="@+id/making_line_canteen"
+                        android:background="@drawable/thememaking_border"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/canteen"
+                        android:textSize="15dp"
+
+                    />
+
+                    <Button
+                        android:id="@+id/making_line_inner"
+                        android:background="@drawable/thememaking_border"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/inner"
+                        android:textSize="15dp"
+                        />
+
+                    <Button
+                        android:id="@+id/making_line_traffic"
+                        android:background="@drawable/thememaking_border"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/traffic"
+                        android:textSize="15dp"
+                        />
+
+                    <Button
+                        android:id="@+id/making_line_supermarket"
+                        android:background="@drawable/thememaking_border"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/supermark"
+                        android:textSize="15dp"
+                        />
+
+                    <Button
+                        android:id="@+id/making_line_play"
+                        android:background="@drawable/thememaking_border"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/play"
+                        android:textSize="15dp"
+                        />
+
+                    <Button
+                        android:id="@+id/making_line_toliet"
+                        android:background="@drawable/thememaking_border"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/toliet"
+                        android:textSize="15dp"
+                        />
+
+                    <Button
+                        android:id="@+id/making_line_hospital"
+                        android:background="@drawable/thememaking_border"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/hospital"
+                        android:textSize="15dp"
+                        />
+
+                    <Button
+                        android:id="@+id/making_line_deletemark"
+                        android:background="@drawable/thememaking_border"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="@string/delete"
+                        android:textSize="15dp"
+                        android:layout_margin="5dp"
+
+                        />
+
+
+                </GridLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <Button
+                    android:id="@+id/making_line_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/thememaking_border"
+                    android:text="@string/add" />
+
+                <Button
+                    android:id="@+id/making_line_better"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/better"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/thememaking_border"
+                    />
+
+                <Button
+                    android:id="@+id/making_line_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/thememaking_border"
+                    android:gravity="center"
+                    android:text="@string/delete" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/making_line_linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"></LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/making_line_dingdan"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/making_line_cancle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="×"
+                    android:textSize="30dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="订单"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    />
+            </FrameLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimaryDark"></View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="$200"
+                android:textSize="30dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="订单信息"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="酒店订单支付"
+                    android:layout_marginRight="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="付款方式"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="支付宝余额"
+                    android:layout_marginRight="10dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/making_line_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/theme_btnstate_style"
+            android:text="立即付款"
+            android:textSize="22dp"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>
+
+
+</FrameLayout>

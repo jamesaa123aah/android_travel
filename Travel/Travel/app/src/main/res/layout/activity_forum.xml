@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.buu.app.travel.MyView.TitleLayout
+        android:id="@+id/forum_titlelayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></com.buu.app.travel.MyView.TitleLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/forum"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/forum_radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/forum_titlelayout"
+        >
+
+        <RadioButton
+            android:id="@+id/forum_btn1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/comment_jingqu"
+            android:gravity="center"
+            android:button="@null"
+            android:checked="true"
+            android:text="@string/forum_all"
+            android:textSize="20dp"
+            android:textColor="@drawable/text_style"
+            />
+
+        <RadioButton
+            android:id="@+id/forum_btn2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/comment_jingqu"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/forum_new"
+            android:textSize="20dp"
+            android:textColor="@drawable/text_style"
+            />
+
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/theme_choice_theme_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/forum_radio"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/forum_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+
+
+        <ListView
+            android:id="@+id/forum_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/thememaking_border2"
+            android:visibility="gone"></ListView>
+
+    </FrameLayout>
+
+
+</RelativeLayout>

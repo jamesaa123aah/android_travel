@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/style_black"
+        android:title="Classic">
+    </item>
+
+    <item android:id="@+id/style_light"
+        android:title="Old Style">
+
+    </item>
+
+    <item android:id="@+id/style_jiudina"
+        android:title="Fashion">
+
+    </item>
+
+    <item android:id="@+id/style_binguan"
+        android:title="Common">
+
+    </item>
+</menu>

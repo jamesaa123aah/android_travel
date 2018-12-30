@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <TextView
+        android:id="@+id/calendar_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        />
+    <ImageView
+        android:id="@+id/calendar_item_have_things"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mark"
+        android:gravity="center"
+        android:visibility="gone" />
+    <View
+        android:id="@+id/calendar_item_focus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/calendar_item"
+        android:gravity="center"
+        android:visibility="gone" />
+</FrameLayout>

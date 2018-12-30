@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray"
+   >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.buu.app.travel.MyView.TitleLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"></com.buu.app.travel.MyView.TitleLayout>
+
+        <Button
+            android:id="@+id/main_rate_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/thememaking_border"
+            android:layout_gravity="right"
+            android:textSize="15dp"
+            android:text="@string/bank"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/b"
+            android:scaleType="fitXY"
+            android:alpha="0.3"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/mine_style">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/rate_tormb"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/main_rate_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rate_tormb_lanage"
+                android:layout_below="@+id/main_rate_money"
+                android:layout_alignRight="@+id/main_rate_money"
+                android:layout_marginTop="30dp"
+                />
+            <Spinner
+                android:id="@+id/main_rate_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/main_rate_language"
+                android:layout_alignTop="@+id/main_rate_language"
+                android:layout_alignBaseline="@+id/main_rate_language"
+                ></Spinner>
+
+            <TextView
+                android:id="@+id/main_rate_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rate_tormb_money"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="50dp"
+                />
+
+            <EditText
+                android:id="@+id/main_rate_editmoney"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/main_rate_money"
+                android:layout_alignTop="@+id/main_rate_money"
+                android:layout_alignBaseline="@+id/main_rate_money"
+                android:hint="@string/rate_tormb_hint"
+                />
+
+            <TextView
+                android:id="@+id/main_rate_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rate_tormb_result"
+                android:layout_below="@+id/main_rate_language"
+                android:layout_alignRight="@+id/main_rate_language"
+                android:layout_marginTop="30dp"
+                />
+
+            <TextView
+                android:id="@+id/main_rate_resultmoney"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/main_rate_money"
+                android:layout_toRightOf="@+id/main_rate_money"
+                android:layout_alignBaseline="@+id/main_rate_result"
+                />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/main_theme_palace"
+            android:scaleType="fitXY"
+            android:alpha="0.3"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/mine_style">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/rate_tother"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/main_rate_language1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/main_rate_money1"
+                android:layout_below="@+id/main_rate_money1"
+                android:layout_marginTop="30dp"
+                android:text="@string/rate_tormb_lanage" />
+
+            <Spinner
+                android:id="@+id/main_rate_spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/main_rate_language1"
+                android:layout_alignTop="@+id/main_rate_language1"
+                android:layout_toRightOf="@+id/main_rate_language1"></Spinner>
+
+            <TextView
+                android:id="@+id/main_rate_money1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/rate_tormb_money" />
+
+            <EditText
+                android:id="@+id/main_rate_editmoney1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/main_rate_money1"
+                android:layout_alignTop="@+id/main_rate_money1"
+                android:layout_toRightOf="@+id/main_rate_money1"
+                android:hint="@string/rate_tormb_hint"/>
+
+            <TextView
+                android:id="@+id/main_rate_result1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/main_rate_language1"
+                android:layout_below="@+id/main_rate_language1"
+                android:layout_marginTop="30dp"
+                android:text="@string/rate_tormb_result" />
+
+            <TextView
+                android:id="@+id/main_rate_resultmoney1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/main_rate_result1"
+                android:layout_below="@id/main_rate_money1"
+                android:layout_toRightOf="@+id/main_rate_money1"
+                 />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+
+
+</LinearLayout>

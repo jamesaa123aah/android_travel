@@ -1,0 +1,295 @@
+<resources>
+    <string name="app_name">Travel</string>
+    <string name="enter">Enter</string>
+    <string name="jump">Leak</string>
+    <string name="place">Country</string>
+    <string name="OK">OK</string>
+    <string name="YES">YES</string>
+    <string name="NO">NO</string>
+    <string name="CANCEL">CANCEL</string>
+    <string name="back_again_exit">back twice and quit</string>
+    <string name="UNKNOW_ERR">UNKNOW_ERR</string>
+    <string name="ERROR_tip">ERROR_tip</string>
+    <string name="code_login"><u>code_login</u></string>
+    <string name="code_login_in">code_login</string>
+    <string name="X_sends_retry">try again</string>
+    <string name="forget_password"><u>forget_password?</u></string>
+    <string name="remember_me">REMEMBER_ME</string>
+    <string name="auto_login">AUTO_LOGIN</string>
+    <string name="auto_login_doing">auto_login_doing...</string>
+    <string name="auto_login_over_time">longin time out</string>
+    <string name="login_account_tip">phone/account/e-mail</string>
+    <string name="nickname">nickname</string>
+    <string name="register_account_tip">account(英文、数字、下划线、减号)</string>
+    <string name="login_password_tip">password</string>
+    <string name="password_repeat">password_repeat</string>
+    <string name="login_login">login</string>
+    <string name="login_register">register</string>
+    <string name="login_refresh_code">refresh</string>
+    <string name="login_code_tip">code</string>
+    <string name="loginCode_number_tip">phone</string>
+    <string name="loginCode_send_code">send code</string>
+    <string name="not_use_phone_register"><u>register no phone number</u></string>
+    <string name="please_input_phone_number_rightly">input correct phone number</string>
+    <string name="agree_and_register">approve regulation</string>
+    <string name="error_account_can_not_null">error_account_can_not_null</string>
+    <string name="error_password_can_not_null">error_password_can_not_null</string>
+    <string name="error_nickname_can_not_null">error_nickname_can_not_null</string>
+    <string name="error_phone_number_can_not_null">error_phone_number_can_not_null</string>
+    <string name="error_code_can_not_null">error_code_can_not_null</string>
+    <string name="error_repeat_password_can_not_null">error_repeat_password_can_not_null</string>
+    <string name="error_account_format_wrong">error_account_format_wrong</string>
+    <string name="error_account_too_short">error_account_too_short</string>
+    <string name="error_nickname_toot_short">error_nickname_toot_short</string>
+    <string name="error_password_format_wrong">error_password_format_wrong</string>
+    <string name="error_password_too_short">error_password_too_short</string>
+    <string name="error_twice_password_different">error_twice_password_different</string>
+    <string name="error_code_wrong">error_code_wrong</string>
+    <string name="error_password_cant_not_include_special_char">error_password_cant_not_include_special_char</string>
+    <string name="register_doing">注册中!register_doing...</string>
+    <string name="register_success_jump">注册成功!register_success_jump...</string>
+    <string name="login_doing">login_doing...</string>
+    <string name="login_success_jump">login_success_jump...</string>
+    <string name="register_fail">register success!register_fail.</string>
+    <string name="hodometer">hodometer</string>
+    <string name="translate">translate</string>
+    <string name="photo_translate">photo translate</string>
+    <string name="Sun">Sun</string>
+    <string name="Mon">Mon</string>
+    <string name="Tue">Tue</string>
+    <string name="Wed">Wed</string>
+    <string name="Thu">Thu</string>
+    <string name="Fri">Fri</string>
+    <string name="Sat">Sat</string>
+    <string name="myPlans">myPlans-</string>
+    <string name="search">search</string>
+    <string name="join">join</string>
+    <string name="call">call</string>
+    <string name="keep_top">keep_top</string>
+    <string name="personal_space">personal_space</string>
+    <string name="firends_and_chat">firends_and_chat</string>
+    <string name="press_to_talk">press_to_talk</string>
+    <string name="service">service</string>
+    <string name="ask_help">ask_help</string>
+    <string name="well_come_to_use_the_Customer_Service">well_come_to_use_the_Customer_Service</string>
+
+    <string name="main_search">searching for</string>
+    <string name="search_eat_play">search</string>
+    <string name="main_top">main</string>
+    <string name="main_bottom">main</string>
+    <string name="schedule">hodometer</string>
+    <string name="mine">mine</string>
+    <string name="canteen_text">cafeteria</string>
+    <string name="rate_tormb_lanage">Choice language：</string>
+    <string name="rate_tormb_money">input money：</string>
+    <string name="rate_tormb_hint">less than 999999</string>
+    <string name="rate_tormb_result">money：</string>
+    <string name="rate_tormb">Other Country money→RMB</string>
+    <string name="rate_tother">RMB→Other Country money</string>
+    <string name="theme1_theme">style：</string>
+    <string name="theme1_time">playing days：</string>
+    <string name="theme1_relax">舒适程度：</string>
+    <string name="theme1_date">开始日期：</string>
+    <string name="theme1_btn">meking</string>
+    <string name="thememaking_title">完整行程单</string>
+    <string name="thememaking_date">日期：</string>
+    <string name="checkedin">设置入住酒店</string>
+    <string name="theme_black">夜间</string>
+    <string name="theme_choice_city_hot">Hot city</string>
+    <string name="theme_choice_city_list">City List</string>
+    <string name="theme_choice_city_hint">search</string>
+    <string name="oneday">Number one</string>
+    <string name="twoday">Number two</string>
+    <string name="threeday">Number three</string>
+    <string name="back">back</string>
+    <string name="self_making">self_making</string>
+    <string name="unique_choice_hot">Hot tourism</string>
+    <string name="unique_choice_all">all</string>
+    <string name="find">search</string>
+    <string name="sort_asc">sort_asc</string>
+    <string name="sort_desc">sort_desc</string>
+    <string name="screen">screen</string>
+    <string name="all">all</string>
+    <string name="historical">historical</string>
+    <string name="a_place_of_interest">famous</string>
+    <string name="shopping">shopping</string>
+    <string name="scenery">scenery</string>
+    <string name="religion">religion</string>
+    <string name="museum">museum</string>
+    <string name="animals">animals</string>
+    <string name="European_style">European_style</string>
+    <string name="culture">culture</string>
+    <string name="foods">foods</string>
+    <string name="choose_style">choose_style</string>
+    <string name="choose_star_level">choose_star_level</string>
+    <string name="price_range">price_range</string>
+    <string name="look">look</string>
+    <string name="spend">spend:</string>
+    <string name="distance">distance:</string>
+    <string name="time">time:</string>
+    <string name="sure">sure</string>
+    <string name="cancle">cancle</string>
+    <string name="vr_map">vr_map</string>
+    <string name="look_line">look\nline</string>
+    <string name="add">add</string>
+    <string name="better">better</string>
+    <string name="delete1">delete1</string>
+    <string name="line_one">line_one</string>
+    <string name="line_two">line_two</string>
+    <string name="line_three">line_three</string>
+    <string name="hottourist">Hot spots :</string>
+    <string name="tourist_comment">Tourist Comment</string>
+    <string name="tourist_recommendation">Tourist Recommendation</string>
+
+    <string name="making">making</string>
+    <string name="contact">contact</string>
+    <string name="better_line">better_line</string>
+    <string name="weather">weather</string>
+    <string name="phone_card">phone_card</string>
+    <string name="bicycle">bicycle</string>
+    <string name="rate">rate</string>
+    <string name="bank">bank</string>
+
+    <string name="canteen">canteen</string>
+    <string name="inner">inner</string>
+    <string name="traffic">traffic</string>
+    <string name="supermark">supermark</string>
+    <string name="play">play</string>
+    <string name="toliet">toliet</string>
+    <string name="delete">delete</string>
+    <string name="hospital">hospital</string>
+
+
+    <string name="beijing">Beijing</string>
+    <string name="shanghai">Shanghai</string>
+    <string name="xianggang">Xianggang</string>
+    <string name="aomen">Aomen</string>
+    <string name="yunnan">Yunnan</string>
+    <string name="tianjin">Tianjin</string>
+    <string name="insurance_account_tip" />
+
+    <string-array name="sort_list">
+        <item>level</item>
+        <item>hot</item>
+        <item>good comment</item>
+        <item>spend</item>
+        <item>number of look</item>
+    </string-array>
+    <string name="nickname1">name</string>
+    <string-array name="nates">
+        <item>China</item>
+        <item>Japan</item>
+        <item>UK</item>
+        <item>Korean</item>
+        <item>French</item>
+        <item>Russian</item>
+        <item>Portuguese</item>
+        <item>Spanish</item>
+    </string-array>
+    <string-array name="translate_nate">
+        <item>auto</item>
+        <item>China</item>
+        <item>Japan</item>
+        <item>UK</item>
+        <item>Korean</item>
+        <item>French</item>
+        <item>Russian</item>
+        <item>Portuguese</item>
+        <item>Spanish</item>
+    </string-array>
+
+    <string-array name="theme">
+        <item>Old</item>
+        <item>Famous</item>
+        <item>shopping</item>
+        <item>Scenery</item>
+        <item>Religion</item>
+        <item>Meusume</item>
+        <item>animal</item>
+        <item>European</item>
+        <item>Culture</item>
+        <item>Eatting</item>
+    </string-array>
+
+    <string-array name="palace">
+        <item>TianTan</item>
+        <item>ZiRanBoWuGuan</item>
+        <item>YiQinWangFu</item>
+        <item>GuGong</item>
+        <item>MingChengQiag</item>
+        <item>YouHeGong</item>
+        <item>GongWangFu</item>
+        <item>XiDan</item>
+        <item>SanLiTun</item>
+        <item>ShuiLiFang</item>
+        <item>XiangShang</item>
+        <item>BeiHai</item>
+        <item>GuGuanXiangTai</item>
+        <item>HuanLeGu</item>
+
+    </string-array>
+
+
+    <string-array name="city">
+        <item>Beijing</item>
+        <item>Shanghai</item>
+        <item>Tianjin</item>
+        <item>Chongqing</item>
+        <item>HeiLongjian</item>
+        <item>Jilin</item>
+        <item>Liaoning</item>
+        <item>Neimenggu</item>
+        <item>Heibei</item>
+        <item>Xinjiang</item>
+        <item>Gansu</item>
+        <item>Qinghai</item>
+        <item>Shanxi</item>
+        <item>Ningxia </item>
+        <item>Henan</item>
+        <item>Shangdong</item>
+        <item>Shanxi</item>
+        <item>Anhui</item>
+        <item>HuBei</item>
+        <item>Jiangsu</item>
+        <item>SIchaun</item>
+        <item>Guizhong</item>
+        <item>Yunnan</item>
+        <item>Guangxi</item>
+        <item>XiZang </item>
+        <item>Zhejiang</item>
+        <item>Jiangxi</item>
+        <item>Guangdong</item>
+        <item>Gujian</item>
+        <item>Taiwan</item>
+        <item>Hainan</item>
+        <item>Xianggang </item>
+        <item>Aomen</item>
+    </string-array>
+
+    <string name="first_aid">   Replay1：Identification or Passport losing\n
+                                    Replay2：Wallet losing\n
+                                    Replay3：Contact cicerone\n
+                                    Replay4：Kid losing\n
+                                    Replay5：Emergency\n
+    </string>
+    <string-array name="first_aid">
+        <item>
+                Contact embassy：64558795
+        </item>
+        <item>
+                Call phone 110
+        </item>
+        <item>
+               Call phone：65487421
+        </item>
+        <item>
+                First:Broadcast\n
+                Next Call 110 for help
+        </item>
+
+        <item>
+               Call phone：65487421，For Help!
+        </item>
+
+    </string-array>
+</resources>

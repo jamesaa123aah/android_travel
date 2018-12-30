@@ -1,0 +1,67 @@
+[
+  {
+    "featureType": "highway",
+    "elementType": "geometry",
+    "stylers": {
+      "lightness": 39,
+      "saturation": 8
+    }
+  },
+  {
+    "featureType": "green",
+    "elementType": "all",
+    "stylers": {
+      "color": "#c5dac6"
+    }
+  },
+  {
+    "featureType": "arterial",
+    "elementType": "geometry",
+    "stylers": {
+      "saturation": -36
+    }
+  },
+  {
+    "featureType": "local",
+    "elementType": "geometry",
+    "stylers": {
+      "lightness": -4,
+      "saturation": 69
+    }
+  },
+  {
+    "featureType": "land",
+    "elementType": "geometry",
+    "stylers": {
+      "color": "#f0cbea"
+    }
+  },
+  {
+    "featureType": "boundary",
+    "elementType": "geometry.fill",
+    "stylers": {
+      "color": "#acbcc9"
+    }
+  },
+  {
+    "featureType": "boundary",
+    "elementType": "geometry.stroke",
+    "stylers": {
+      "color": "#f7f2e8"
+    }
+  },
+  {
+    "featureType": "building",
+    "elementType": "all",
+    "stylers": {
+      "lightness": -20
+    }
+  },
+  {
+    "featureType": "manmade",
+    "elementType": "all",
+    "stylers": {
+      "lightness": 8
+    }
+  }
+]
